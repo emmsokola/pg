@@ -49,4 +49,5 @@ def cislo_text(cislo):
 	if jednotka == 0:
 		return desitky[desitka]
 	return f"{desitky[desitka]} {jednotky[jednotka]}"
-print(cislo_text(13))
+cislo = int(input("Zadejte celé číslo od 0 do 100: "))
+print(cislo_text(cislo))
