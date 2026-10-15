@@ -49,4 +49,4 @@ def cislo_text(cislo):
 	if jednotka == 0:
 		return desitky[desitka]
 	return f"{desitky[desitka]} {jednotky[jednotka]}"
-print(cislo_text(130))
+print(cislo_text(13))
